@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sprite</title>
+  </head>  
+  <body>
+    <div id="move" style="width: 600px; border: 1px dotted black">
+      <input type="button" onclick="moveLeft(alien)" value="moveLeft" />
+      <input type="button" onclick="moveRight(alien)" value="moveRight" />
+      <input type="button" onclick="moveUp(alien)" value="moveUp" />
+      <input type="button" onclick="moveDown(alien)" value="moveDown" />
+    </div>
+    <div id="effect" style="width: 600px; border: 1px dotted black">
+      <input type="button" onclick="show(alien)" value="show" />
+      <input type="button" onclick="hide(alien)" value="hide" />
+      <input type="button" onclick="rotateCW(alien)" value="rotateCW" />
+      <input type="button" onclick="rotateCCW(alien)" value="rotateCCW" />      
+      <input type="button" onclick="incAlpha(alien)" value="incAlpha" />
+      <input type="button" onclick="decAlpha(alien)" value="decAlpha" />
+      <input type="button" onclick="toggleShadow(alien)" value="toggleShadow" />
+    </div> 
+    
+    <canvas width="600px" height="400px" style="border: 1px dotted black"></canvas>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>

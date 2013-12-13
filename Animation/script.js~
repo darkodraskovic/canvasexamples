@@ -1,0 +1,14 @@
+var raiser = {
+    IMAGE: "img/raiserRunning.png",
+    SIZE: 32,
+    
+    numberOfFrames: 8,
+    currentFrame: 0,
+
+    sourceX: 0,
+    sourceY: 0,
+
+    updateAnimation: function() {
+	
+    }
+};
