@@ -1,0 +1,4 @@
+var spriteSheetJSON = {
+    "ships" : [],
+    "bullets": []
+}
